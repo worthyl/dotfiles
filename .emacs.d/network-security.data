@@ -1,0 +1,5 @@
+(
+ (:id "sha1:6d4eb958390599243ba9f5035cb671fa8dd6a93a" :fingerprint "sha1:8d:28:ac:5d:7b:7f:b4:4c:57:09:31:b6:f4:b7:2c:64:f8:2d:67:22" :host "elpa.gnu.org:443" :conditions (:unknown-ca :invalid))
+ (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprint "sha1:8d:28:ac:5d:7b:7f:b4:4c:57:09:31:b6:f4:b7:2c:64:f8:2d:67:22" :host "melpa.org:443" :conditions (:unknown-ca :invalid))
+ (:id "sha1:ccfd2cc2a08c89a9b10969be8c1e926954d53e28" :fingerprint "sha1:3f:c3:29:b8:77:0d:3d:17:23:7c:8d:65:42:1d:d7:11:e6:da:77:13" :host "stable.melpa.org:443" :conditions (:unknown-ca :invalid))
+)
