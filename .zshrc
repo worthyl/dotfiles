@@ -142,3 +142,4 @@ export PATH="$HOME/.jenv/bin:$PATH"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+source "/Users/worthylafollette/.wasmedge/env"
