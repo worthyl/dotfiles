@@ -139,7 +139,15 @@ fortune | cowsay -f meow
 export PATH="$HOME/.jenv/bin:$PATH"
   eval "$(jenv init -)"
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/WL23TT/dev/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/WL23TT/dev/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/WL23TT/dev/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/WL23TT/dev/google-cloud-sdk/completion.zsh.inc'; fi
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 source "/Users/worthylafollette/.wasmedge/env"
+
+
